@@ -1,5 +1,3 @@
-```
-
 import discord
 
 import random
@@ -26,7 +24,7 @@ async def on_message(message):
 
             bug_report = message.content[10:]
 
-            bug_channel = discord.utils.get(message.guild.channels, name="afk")
+            bug_channel = discord.utils.get(message.guild.channels, name="BUG_REPORT_CHANNEL")
 
             color = random.randint(0, 0xffffff)
 
@@ -104,8 +102,8 @@ async def on_message(message):
 
       
 
-client.run("OTExNjc5ODEwMTc3MjI4ODYx.Gy_SdH.7015MpzzAunhtb9RearTeJm7lfO5P1NDOWzHgY")
+client.run("BOT_TOKEN")
 
-```
 
-fi
+
+
