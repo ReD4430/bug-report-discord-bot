@@ -1,4 +1,4 @@
-Simple Bug Report Tracking Discord Bot
+# Simple Bug Report Tracking Discord Bot
 
 This code creates a Discord bot that can be used to report and respond to bug reports. 
 It listens for messages that start with "!reportbug" and "!replybug". 
